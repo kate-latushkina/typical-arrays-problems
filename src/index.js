@@ -35,7 +35,7 @@ exports.avg = function avg(array) {
   for (let i = 0; i < array.length; i++) {
     if (array.length != 0) {
       average += array[i] / array.length;
-      avg = average.toFixed(1)
+      avg = average.toFixed(2)
     }
   }
   return avg;
